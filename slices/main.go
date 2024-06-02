@@ -6,6 +6,7 @@ import "fmt"
 //Dynamic Size
 
 //In slice --> cap(capacity) and size
+//Capacity doubles by 2 if there is requirement
 
 func main() {
 	fmt.Println("Hello")
@@ -15,4 +16,5 @@ func main() {
 	fmt.Println(stringsData)
 	number = append(number, 2, 20, 30)
 	fmt.Printf("number has a data type : %T\n", number)
+
 }
